@@ -7,7 +7,7 @@ This bundle provides a simple integration of the [Doctrine MongoDB][2] into [API
 Install the latest version with
 
 ```bash
-$ composer require talaka/api-platform-mongodb-bundle
+$ composer require doublebit/api-platform-mongodb-bundle
 ```
 
 Register the bundle in `app/AppKernel.php`:
@@ -21,7 +21,7 @@ public function registerBundles()
     $bundles = array(
         // ...
 
-        new Talaka\APIPlatform\MongoDBBundle\TalakaAPIPlatformMongoDBBundle(),
+        new DoubleBit\APIPlatform\MongoDBBundle\DoubleBitAPIPlatformMongoDBBundle(),
     );
 }
 ```
@@ -33,7 +33,7 @@ Configure
 
 ``` yaml
 annotationGenerators:
-    - Talaka\APIPlatform\MongoDBBundle\AnnotationGenerator\DoctrineMongoDBAnnotationGenerator
+    - DoubleBit\APIPlatform\MongoDBBundle\AnnotationGenerator\DoctrineMongoDBAnnotationGenerator
 namespaces:
     entity: AppBundle\Document # The default namespace for documents,
 ```
@@ -48,7 +48,7 @@ $ bin/schema generate-types src/ app/config/schema.yml
 License
 -------
 
-The TalakaAPIPlatformMongoDBBundle is licensed under the MIT license.
+The DoubleBitAPIPlatformMongoDBBundle is licensed under the MIT license.
 
 [1]: https://github.com/api-platform/api-platform
 [2]: https://github.com/doctrine/mongodb

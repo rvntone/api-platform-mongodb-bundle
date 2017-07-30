@@ -1,6 +1,6 @@
 <?php
 
-namespace Talaka\APIPlatform\MongoDBBundle\DependencyInjection;
+namespace DoubleBit\APIPlatform\MongoDBBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\DependencyInjection\Exception\BadMethodCallException;
@@ -12,7 +12,7 @@ use Symfony\Component\Config\FileLocator;
 /**
  * {@inheritDoc}
  */
-class TalakaAPIPlatformMongoDBExtension extends Extension
+class DoubleBitAPIPlatformMongoDBExtension extends Extension
 {
     /**
      * {@inheritDoc}

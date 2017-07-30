@@ -1,20 +1,24 @@
 {
-    "name": "talaka/api-platform-mongodb-bundle",
+    "name": "doublebit/api-platform-mongodb-bundle",
     "description": "API Platform MongoDB Integration",
     "type": "library",
     "require": {
-        "dunglas/api-bundle": "~1.1",
-        "doctrine/mongodb-odm": "~1.1",
-        "doctrine/mongodb-odm-bundle": "~3.0"
+        "api-platform/core": "^2.0",
+        "doctrine/mongodb-odm": "^1.1",
+        "doctrine/mongodb-odm-bundle": "^3.3"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Andrei Meshchanchuk",
             "email": "andrei.meshchanchuk@gmail.com"
+        },
+        {
+        	"name": "Vasile Goian",
+        	"email": "opensource@doublebit.net"
         }
     ],
     "autoload": {
-        "psr-4": { "Talaka\\APIPlatform\\MongoDBBundle\\": "" }
+        "psr-4": { "DoubleBit\\APIPlatform\\MongoDBBundle\\": "" }
     }
 }

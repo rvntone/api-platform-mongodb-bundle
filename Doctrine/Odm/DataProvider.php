@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the TalakaAPIPlatformMongoDBBundle package.
+ * This file is part of the DoubleBitAPIPlatformMongoDBBundle package.
  *
  * (c) Andrew Meshchanchuk <andrew.meshchanchuk@gmail.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Talaka\APIPlatform\MongoDBBundle\Doctrine\Odm;
+namespace DoubleBit\APIPlatform\MongoDBBundle\Doctrine\Odm;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\ODM\MongoDB\Cursor;
-use Talaka\APIPlatform\MongoDBBundle\Doctrine\Odm\Filter\FilterInterface;
+use DoubleBit\APIPlatform\MongoDBBundle\Doctrine\Odm\Filter\FilterInterface;
 use Dunglas\ApiBundle\Model\DataProviderInterface;
 use Dunglas\ApiBundle\Api\ResourceInterface;
 use Symfony\Component\HttpFoundation\Request;

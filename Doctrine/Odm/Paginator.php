@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the TalakaAPIPlatformMongoDBBundle package.
+ * This file is part of the DoubleBitAPIPlatformMongoDBBundle package.
  *
  * (c) Andrew Meshchanchuk <andrew.meshchanchuk@gmail.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Talaka\APIPlatform\MongoDBBundle\Doctrine\Odm;
+namespace DoubleBit\APIPlatform\MongoDBBundle\Doctrine\Odm;
 
 use Dunglas\ApiBundle\Model\PaginatorInterface;
 use Doctrine\ODM\MongoDB\Cursor;

@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Talaka\APIPlatform\MongoDBBundle\AnnotationGenerator;
+namespace DoubleBit\APIPlatform\MongoDBBundle\AnnotationGenerator;
 
 use ApiPlatform\SchemaGenerator\AnnotationGenerator\AbstractAnnotationGenerator;
 use ApiPlatform\SchemaGenerator\CardinalitiesExtractor;
