@@ -14,13 +14,13 @@
 
         <service id="doublebit_api_platform_mongodb.doctrine.mongodb.data_provider" class="DoubleBit\APIPlatform\MongoDBBundle\Doctrine\Odm\DataProvider">
             <argument type="service" id="doctrine_mongodb" />
-            <argument>%api.collection.order%</argument>
-            <argument>%api.collection.pagination.page_parameter_name%</argument>
-            <argument>%api.collection.pagination.items_per_page.number%</argument>
-            <argument>%api.collection.pagination.items_per_page.enable_client_request%</argument>
-            <argument>%api.collection.pagination.items_per_page.parameter_name%</argument>
+            <argument>%api_platform.collection.order%</argument>
+            <argument>%api_platform.collection.pagination.page_parameter_name%</argument>
+            <argument>%api_platform.collection.pagination.items_per_page.number%</argument>
+            <argument>%api_platform.collection.pagination.items_per_page.enable_client_request%</argument>
+            <argument>%api_platform.collection.pagination.items_per_page.parameter_name%</argument>
 
-            <tag name="api.data_provider" priority="1" />
+            <tag name="api_platform.data_provider" priority="1" />
         </service>
     </services>
 </container>
