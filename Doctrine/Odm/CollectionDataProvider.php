@@ -4,6 +4,7 @@
  * This file is part of the DoubleBitAPIPlatformMongoDBBundle package.
  *
  * (c) Andrew Meshchanchuk <andrew.meshchanchuk@gmail.com>
+ * (c) Vasile Goian <opensource@doublebit.net>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -14,8 +15,8 @@ namespace DoubleBit\APIPlatform\MongoDBBundle\Doctrine\Odm;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\ODM\MongoDB\Cursor;
 use DoubleBit\APIPlatform\MongoDBBundle\Doctrine\Odm\Filter\FilterInterface;
-use Dunglas\ApiBundle\Model\DataProviderInterface;
-use Dunglas\ApiBundle\Api\ResourceInterface;
+use ApiPlatform\Core\DataProvider\CollectionDataProviderInterface;
+use ApiPlatform\Core\Exception\ResourceClassNotSupportedException;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
@@ -23,7 +24,7 @@ use Symfony\Component\HttpFoundation\Request;
  *
  * @author Andrew Meshchanchuk <andrew.meshchanchuk@gmail.com>
  */
-class DataProvider implements DataProviderInterface
+class CollectionDataProvider implements CollectionDataProviderInterface
 {
     /**
      * @var ManagerRegistry
